@@ -9,6 +9,7 @@ function hasPermission(roles: string[], route: RouteRecordRaw) {
   return routeRoles ? roles.some(role => routeRoles.includes(role)) : true
 }
 
+/** 过滤动态路由 */
 function filterDynamicRoutes(routes: RouteRecordRaw[], roles: string[]) {
   const res: RouteRecordRaw[] = []
   routes.forEach((route) => {

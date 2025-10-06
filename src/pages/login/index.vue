@@ -178,10 +178,8 @@ createCode()
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 150px;
-      img {
-        height: 100%;
-      }
+      height: 100px;
+      padding-top: 40px;
     }
     .content {
       padding: 20px 50px 50px 50px;
